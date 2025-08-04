@@ -57,9 +57,9 @@ cp *server*.log ../processed/server_logs
 
 # 6. Repeat the above step for user logs and event logs
 
-cp *server*.log ../processed/user_logs
+cp *user*.log ../processed/user_logs
 
-cp *server*.log ../processed/event_logs
+cp *event*.log ../processed/event_logs
 
 # 7. For user privacy, remove all files containing IP addresses (files with "ipaddr" in the filename) from ./data/raw and ./data/processed/user_logs
 
